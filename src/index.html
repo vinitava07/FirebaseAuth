@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Realizando autenticação com firebase</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <div id="login">
+    <div class="header">
+      <h1>Realize seu login</h1>
+    </div>
+    <form>
+      <div class="group">
+        <input id="txtEmail" type="email">
+        <label>Email</label>
+      </div>
+      <div class="group">
+        <input id="txtPassword" type="password">
+        <label>Senha</label>
+      </div>
+      <div id="divLoginError" class="group">
+        <div id="lblLoginErrorMessage" class="errorlabel">Erro!</div>
+      </div>
+      <button id="btnLogin" type="button" class="button buttonBlue">Login</button>
+      <button id="btnSignup" type="button" class="button buttonBlue">Cadastrar</button>
+    </form>
+  </div>
+
+  <div id="app">
+    <div class="header">
+      <h1>Login realizado</h1>
+    </div>
+    <form>
+      <div class="group">
+        <div id="lblAuthState" class="authlabel"></div>
+      </div>
+      <button id="btnLogout" type="button" class="button buttonBlue">Sair</button>
+    </form>
+  </div>
+
+  <footer>
+    <a href="https://www.pucminas.br/destaques/Paginas/default.aspx" target="_blank"><img
+        src="https://www.pucminas.br/Style%20Library/STATIC/img/novas/brasao65anos.jpg"></a>
+  </footer>
+
+</body>
+
+</html>
